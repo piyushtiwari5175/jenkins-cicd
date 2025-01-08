@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the repository
-                git 'https://github.com/piyushtiwari5175/your-repo.git'
+                git 'https://github.com/piyushtiwari5175/jenkins-cicd.git'
             }
         }
 
